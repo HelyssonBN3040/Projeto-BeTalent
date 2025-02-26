@@ -1,0 +1,28 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:1rem;
+}
+.ImgUser{
+  width:50px;
+  border-radius:50%;
+}
+.LogoBetalent{
+  width:15rem;
+  margin-top:1rem;
+}
+.FilterHeader{
+  width:250px;
+  height:30px;
+  padding:4px;
+  border-radius:5px;
+}
