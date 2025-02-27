@@ -1,6 +1,6 @@
 # Projeto BeTalent
 
-![alt text](image.png)
+![alt text](<./Public/Captura Projeto.png>)
 
 ## Visão Geral
 O projeto BeTalent é uma aplicação desenvolvida em React para exibir uma tabela interativa de funcionários com informações como nome, cargo, data de admissão, telefone e imagem. Os dados são consumidos de uma API local.
