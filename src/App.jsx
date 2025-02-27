@@ -36,28 +36,28 @@ function App() {
   //Colunas da tabela
   const columns = [
     {
-      name: 'Imagem',
+      name: <p className='Columns-font'>Imagem</p>,
       selector: row => row.image,
       sortable: true,
       cell: row => <img src={row.image} alt="Imagem" className='ImgUser' />
     },
     {
-      name: 'Nome',
+      name: <p className='Columns-font'>Nome</p>,
       selector: row => row.name,
       sortable: true
     },
     {
-      name: 'Cargo',
+      name: <p className='Columns-font'>Cargo</p>,
       selector: row => row.job,
       sortable: true
     },
     {
-      name: 'Data de admissão',
+      name: <p className='Columns-font'>Data de Admissão</p>,
       selector: row => formatDate(row.admission_date),
       sortable: true
     },
     {
-      name: 'Telefone',
+      name: <p className='Columns-font'>Telefone</p>,
       selector: row => formatPhone(row.phone),
       sortable: true
     },

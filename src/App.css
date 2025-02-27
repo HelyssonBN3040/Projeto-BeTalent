@@ -12,9 +12,15 @@
   align-items:center;
   gap:1rem;
 }
+.Columns-font{
+  font-weight:bold;
+  font-size:17px;
+}
+
 .ImgUser{
   width:50px;
   border-radius:50%;
+  margin:10px 0 10px 0;
 }
 .LogoBetalent{
   width:15rem;
